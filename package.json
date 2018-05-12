@@ -1,0 +1,28 @@
+{
+  "name": "menv-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --ignore 'src/public'",
+    "webpack": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.4",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.10",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3"
+  }
+}
