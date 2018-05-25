@@ -10,15 +10,12 @@ mongoose.connect('mongodb://localhost/mevn-crud');
 
 // settings
 app.set('port', process.env.PORT || 3000);
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
 
 // middlewares
 app.use(morgan('dev'));
 app.use(express.json());
 
 // routes
-app.use('/', require('./routes/index'));
 app.use('/api/tasks', require('./routes/tasks'));
 
 // static
