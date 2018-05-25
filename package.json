@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --ignore 'src/public'",
-    "webpack": "webpack --watch --mode development"
+    "webpack": "webpack --watch --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
