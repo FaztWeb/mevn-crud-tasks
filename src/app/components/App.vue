@@ -103,6 +103,7 @@ export default {
           .then(data => {
             this.getTasks();
             this.task = new Task();
+            this.edit = !this.edit;
           });
       }
     },
